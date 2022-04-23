@@ -45,8 +45,8 @@ login = p.locateCenterOnScreen("LogIn.JPG",confidence=0.6, grayscale=True)
 while(login == None):
       login = p.locateCenterOnScreen("LogIn.JPG",confidence=0.7, grayscale=True)          
      
-p.write("enter your email here")
-p.press("enter")
+p.write("jjmyers87@yahoo.com")
+p.press("Maverick")
 
 enterpassword = p.locateCenterOnScreen("EnterPassword.JPG",confidence=0.7, grayscale=True)
 while(enterpassword == None):
